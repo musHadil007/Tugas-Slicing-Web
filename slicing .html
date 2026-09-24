@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Googel</title>
+    <link rel="stylesheet" href="slicing.css">
+  </head>
+
+  <body>
+    <header id="atas">
+      <a href="#">Gmail</a>
+      <a href="#">Gambar</a>
+      <a href="#">Login</a>
+    </header>
+
+    <main>
+      <div id="logo" aria-label="Googel">
+      <font color="blue">G</font>
+      <font color="red">o</font>
+      <font color="yellow">o</font>
+      <font color="blue">g</font>
+      <font color="green">e</font>
+      <font color="red">l</font>
+      </div>
+
+      <form id="searchForm">
+        <label for="kotak">Cari di Googel</label>
+        <input type="search" id="kotak" placeholder="Cari di sini" autocomplete="off">
+
+        <div id="tombolnya">
+          <button class="tombol" type="submit">Googel Search</button>
+          <button class="tombol" id="luckyButton" type="button">Aku Merasa Beruntung</button>
+        </div>
+      </form>
+
+      <div id="Hasil" role="status" aria-live="polite"></div>
+    </main>
+
+    <script src="slicing.js"></script>
+  </body>
+</html>
